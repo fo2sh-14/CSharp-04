@@ -53,18 +53,29 @@ namespace Assignment_2
             #region 8st answer
             int pages = 464;
             Console.WriteLine(pages > 300 ? "Long Book" : "Short Book");
-
             #endregion
 
             #region 9st answer
             bool isAvailable = true;
-            if(pages > 300 && isAvailable == true)
+            if (pages > 300 && isAvailable == true)
             {
                 Console.WriteLine("You can borrow this book");
-
             }
-            
+            #endregion
 
+            #region 10st answer
+            string title = "Refactoring";
+            switch(title)
+            {
+                case "Clean Code" :
+                    Console.WriteLine("Great choice!");
+                    break;
+                case "Refactoring":
+                    Console.WriteLine("Nice pick!");
+                    break;
+                default: Console.WriteLine("Never heard of it");
+                    break;  
+            }
             #endregion
 
 
