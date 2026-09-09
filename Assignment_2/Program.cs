@@ -14,8 +14,18 @@ namespace Assignment_2
             Console.WriteLine(upperTitle);
             #endregion
 
+            #region 2st answer 
+            string title1 = "clean code";
+            string title2 = "clean code";
 
+            Console.WriteLine(ReferenceEquals(title1, title2));
+            #endregion
 
+            #region 3st answer
+            StringBuilder sb = new StringBuilder("Book List");
+            sb.Append(" - Updated");
+            Console.WriteLine(sb.ToString());
+            #endregion
         }
     }
 }
