@@ -119,6 +119,16 @@ namespace Assignment_2
                 Console.WriteLine(book);
             }
             #endregion
+            Console.WriteLine("--------------------------------------------");
+            #region 16st answer
+            string[] books_3 = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
+            foreach (string book in books_3)
+            {
+                Console.WriteLine(book);
+                if (book == "Refactoring")
+                    break;
+            }
+            #endregion
         }
     }
 }
