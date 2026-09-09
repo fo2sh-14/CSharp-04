@@ -112,6 +112,13 @@ namespace Assignment_2
             } while (k < 3);
             #endregion
 
+            #region 15st answer
+            string[] books_2 = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
+            foreach (string book in books_2)
+            {
+                Console.WriteLine(book);
+            }
+            #endregion
         }
     }
 }
