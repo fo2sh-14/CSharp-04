@@ -78,6 +78,11 @@ namespace Assignment_2
             }
             #endregion
 
+            #region 11st answer
+            // Solve in question 8
+            Console.WriteLine(pages > 300 ? "Long Book" : "Short Book");
+            #endregion
+
 
         }
     }
