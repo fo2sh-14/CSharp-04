@@ -41,7 +41,11 @@ namespace Assignment_2
 
             #region 6st answer
             Console.WriteLine($"Book: {title3},Pages: {pages}");
+            #endregion
 
+            #region 7st answer
+            Console.WriteLine(string.Format("Book: {0},Pages: {1}", title3, pages)); 
+            
             #endregion
         }
     }
