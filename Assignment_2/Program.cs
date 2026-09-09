@@ -26,6 +26,11 @@ namespace Assignment_2
             sb.Append(" - Updated");
             Console.WriteLine(sb.ToString());
             #endregion
+
+            #region 4st answer
+            sb.Replace("Book List", "Library");
+            Console.WriteLine(sb.ToString());
+            #endregion
         }
     }
 }
