@@ -1,4 +1,5 @@
-﻿using System.Text;
+﻿using System.Drawing;
+using System.Text;
 
 namespace Assignment_2
 {
@@ -6,6 +7,7 @@ namespace Assignment_2
     {
         static void Main(string[] args)
         {
+            /*
             #region 1st answer
             string title = "clean code";
             string upperTitle = title.ToUpper();
@@ -44,9 +46,34 @@ namespace Assignment_2
             #endregion
 
             #region 7st answer
-            Console.WriteLine(string.Format("Book: {0},Pages: {1}", title3, pages)); 
-            
+            Console.WriteLine(string.Format("Book: {0},Pages: {1}", title3, pages));
             #endregion
+            */
+
+            #region 8st answer
+            int pages = 464;
+            Console.WriteLine(pages > 300 ? "Long Book" : "Short Book");
+
+            #endregion
+
+
         }
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
