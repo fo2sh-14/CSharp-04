@@ -38,6 +38,11 @@ namespace Assignment_2
             string sentence = "Book:" + " " + "Clean Code," + "Pages: " + 464;
             Console.WriteLine(sentence);
             #endregion
+
+            #region 6st answer
+            Console.WriteLine($"Book: {title3},Pages: {pages}");
+
+            #endregion
         }
     }
 }
