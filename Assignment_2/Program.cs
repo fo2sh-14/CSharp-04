@@ -31,6 +31,13 @@ namespace Assignment_2
             sb.Replace("Book List", "Library");
             Console.WriteLine(sb.ToString());
             #endregion
+
+            #region 5st answer
+            string title3 = "Clean Code";
+            int pages = 464;
+            string sentence = "Book:" + " " + "Clean Code," + "Pages: " + 464;
+            Console.WriteLine(sentence);
+            #endregion
         }
     }
 }
