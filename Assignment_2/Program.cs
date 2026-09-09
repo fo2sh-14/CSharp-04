@@ -103,6 +103,15 @@ namespace Assignment_2
             }
             #endregion
 
+            #region 14st answer
+            int k = 0;
+            do
+            {
+                Console.WriteLine("Checking book...");
+                k++;
+            } while (k < 3);
+            #endregion
+
         }
     }
 }
