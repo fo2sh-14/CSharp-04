@@ -148,6 +148,18 @@ namespace Assignment_2
             Console.Write("First element in array: ");
             PrintFirstBook(books);
             #endregion
+
+
+            #region 17st answer
+            foreach (string book in books_3)
+            {
+                if (book == "The Pragmatic Programmer")
+                    continue;
+                Console.WriteLine(book);
+            }
+            #endregion
+
+
         }
         static public void PrintFirstBook(string[] books)
         {
