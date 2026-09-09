@@ -120,6 +120,7 @@ namespace Assignment_2
             }
             #endregion
             Console.WriteLine("--------------------------------------------");
+
             #region 16st answer
             string[] books_3 = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
             foreach (string book in books_3)
@@ -129,6 +130,32 @@ namespace Assignment_2
                     break;
             }
             #endregion
+
+            Console.WriteLine("--------------------------------------------");
+
+            #region 17st answer
+            foreach (string book in books_3)
+            {
+                if (book == "The Pragmatic Programmer")
+                    continue;
+                Console.WriteLine(book);
+            }
+            #endregion
+
+            Console.WriteLine("--------------------------------------------");
+
+            #region 18st answer
+            Console.Write("First element in array: ");
+            PrintFirstBook(books);
+            #endregion
+        }
+        static public void PrintFirstBook(string[] books)
+        {
+            if (books[0] == null)
+                return;
+            else
+                Console.WriteLine(books[0]);
+
         }
     }
 }
